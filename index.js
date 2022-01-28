@@ -7,6 +7,7 @@ let time = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 let CurrentS = date.getSeconds();
 let timeDate = time + ' ' + Fulldate;
 let listColor = document.getElementById("List");
+let i = 0
 console.log(timeDate)
 
 function askForTime() {
